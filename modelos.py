@@ -17,6 +17,7 @@ agrupados.reset_index(inplace=True,drop=True)
 #########################################################
 #####   Se definen las ecuaciones de los modelos    #####                    
 #########################################################
+# Modelo de Hertz
 def Hertz(F,R,D):
     return (3*F*0.75)/(4*(R**(1/2))*(D**(3/2)))
 # Modelo de Sneddon
